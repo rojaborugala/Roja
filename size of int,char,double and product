@@ -17,4 +17,23 @@ Size of double:8bytes
 --------------------------------
 Process exited after 0.01162 seconds with return value 0
 Press any key to continue . . .
-
+//product of 2 numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b;
+int result;
+cout<<"Enter first number =";
+cin>>a;
+cout<<"Enter second number =";
+cin>>b;
+result=a*b;
+cout<<"product = "<<result;
+}
+Enter first number =3
+Enter second number =8
+product = 24
+--------------------------------
+Process exited after 6.562 seconds with return value 0
+Press any key to continue . . .
